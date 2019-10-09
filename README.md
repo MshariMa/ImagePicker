@@ -80,15 +80,10 @@ let images = imageAssets
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ImagePicker'
+pod 'ImagePicker', :git => 'https://github.com/MshariMa/ImagePicker', :branch => 'master'
 ```
 
-**ImagePicker** is also available through [Carthage](https://github.com/Carthage/Carthage).
-To install just write into your Cartfile:
 
-```ruby
-github "hyperoslo/ImagePicker"
-```
 
 ## Author
 
